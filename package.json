@@ -1,0 +1,31 @@
+{
+  "name": "ngx-translate-mark-translatable-strings",
+  "version": "1.0.0",
+  "description": "Tool to mark tags which has only strings with [translate] directive. Like ngx-translate-extract, this tool will mark the strings, so it save your time to manually mark the string only tags with [translatae] directive.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ngx-translate-mark-translatable-strings": "bin/marker.js"
+  },
+  "bugs": {
+    "url": "https://github.com/mohammedriyaz/ngx-translate-mark-translatable-strings/issues"
+  },
+  "homepage": "https://github.com/mohammedriyaz/ngx-translate-mark-translatable-strings#readme",
+  "keywords": [
+    "\"ngx-translate",
+    "utility\"",
+    "\"add",
+    "translate directive\"",
+    "\"Mark",
+    "translatable",
+    "strings\""
+  ],
+  "author": "Riyaz",
+  "license": "MIT",
+  "dependencies": {
+    "command-line-args": "^5.1.1",
+    "find-in-files": "^0.5.0"
+  }
+}
